@@ -1,0 +1,357 @@
+@media screen and (max-width: 1880px) {
+  /* ====== Section: Testimonials ====== */
+  #testimonials .swiper-slide p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  /* ====== Section: Services ====== */
+  section#services .main {
+    padding: var(--padding-vertical-l) 0;
+    margin: 0 var(--margin-side-m);
+  }
+
+  /* ====== Section: Testimonials ====== */
+  #testimonials .swiper {
+    width: 90%;
+    max-height: 300px;
+    padding: 0.5rem 0;
+    cursor: grab;
+  }
+
+  .trusted-companies {
+    margin: 0 var(--margin-side-m);
+  }
+
+  .trusted-companies .company {
+    width: 200px;
+  }
+
+  /* ====== Section: Savings ====== */
+  #savings .main {
+    margin: 0 var(--margin-side-m);
+  }
+
+  /* ====== Section: Best-sellers ====== */
+  #best-sellers .main {
+    margin: 0 var(--margin-side-m);
+  }
+
+  /* ====== Section: Inspiration ====== */
+  #inspiration .main {
+    margin: 0 var(--margin-side-m);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-info {
+    width: 150px;
+  }
+
+  .links {
+    width: calc(100% - 300px - 150px);
+  }
+
+  .newsletter {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* ====== Header ====== */
+  .navigation__left {
+    gap: 25px;
+  }
+
+  .navigation .menu {
+    display: flex;
+  }
+
+  .navigation .logo img {
+    height: 22px;
+  }
+
+  #design-office,
+  .navigation--links {
+    display: none;
+  }
+
+  /* ====== Section: Hero ====== */
+  section#hero .main {
+    margin: 0 var(--margin-side-m);
+  }
+
+  .hero--text h2 {
+    font-size: 4vw;
+  }
+
+  .hero--text p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  /* ====== Section: Services ====== */
+  section#services .main .header h2 {
+    font-size: var(--fs-header-m);
+  }
+
+  /* ====== Section: Trust ====== */
+  #trust .main {
+    margin: 0 var(--margin-side-s);
+  }
+
+  #trust .main .left p {
+    font-size: var(--fs-m-2);
+  }
+
+  #trust .main .right p {
+    font-size: var(--fs-s-2);
+  }
+
+  /* ====== Section: Inspiration ====== */
+  [data-small-screen="invert"] {
+    align-items: start;
+  }
+
+  [data-small-screen="invert"] .arrow {
+    margin-left: 20px;
+  }
+
+  [data-item="6"] {
+    left: 30%;
+  }
+
+  [data-item="7"] {
+    left: 30%;
+  }
+
+  footer .main {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .links {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* ====== Section: Products ====== */
+  section#products .main h2 {
+    font-size: 4vw;
+  }
+
+  .product-envoirements,
+  .product-types {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .envoirement,
+  .product-type {
+    width: 100%;
+  }
+
+  .product-type {
+    height: 400px;
+  }
+
+  /* ====== Section: Services ====== */
+  .services {
+    flex-direction: column;
+    gap: var(--padding-vertical-l);
+  }
+
+  .services .left,
+  .services .right {
+    width: 100%;
+  }
+
+  /* ====== Section: Savings ====== */
+  #savings .main {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+  #savings .main .left {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ====== Section: Inspiration ====== */
+  .inspiration-header p {
+    margin: 1.5rem var(--margin-side-s) 2rem;
+  }
+
+  .glider-2 .glide__slide {
+    height: 300px;
+  }
+
+  .item-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .clickable-button {
+    width: 30px;
+    height: 30px;
+  }
+
+  [data-item="0"] {
+    left: calc((100% - 300px) / 2 - 150px);
+  }
+
+  [data-item="1"] {
+    left: calc((100% - 300px) / 2 - 50px);
+  }
+
+  [data-item="2"] {
+    left: calc((100% - 300px) / 2 - 70px);
+  }
+
+  [data-item="3"] {
+    left: calc((100% - 300px) / 2 - 20px);
+  }
+
+  [data-item="4"] {
+    left: calc((100% - 300px) / 2 - 120px);
+  }
+
+  [data-item="5"] {
+    left: calc((100% - 300px) / 2 + 10px);
+  }
+
+  [data-item="7"] {
+    left: calc((100% - 300px) / 2 + 60px);
+  }
+
+  [data-item="8"],
+  [data-item="9"] {
+    left: calc((100% - 300px) / 2 - 45px);
+  }
+
+  footer .main,
+  footer .links {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 100%;
+  }
+
+  /* ====== Section: Hero ====== */
+  section#hero {
+    height: 120vh;
+    background: url(../assets/images/bg-small.webp);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 0;
+  }
+
+  section#hero .main {
+    width: 100%;
+  }
+
+  .hero--text h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero--text p {
+    text-align: center;
+  }
+
+  section#products .main h2 {
+    font-size: 2rem;
+  }
+
+  .product-envoirements {
+    margin: 0 40px;
+  }
+
+  /* ====== Section: Services ====== */
+  section#services .main {
+    padding: var(--padding-vertical-l) 0;
+    margin: 0 var(--margin-side-s);
+  }
+
+  .services .left,
+  .services .right {
+    flex-direction: column;
+    gap: var(--padding-vertical-l);
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .service-image img {
+    max-height: 80px;
+  }
+
+  .service-banner span {
+    font-size: var(--fs-m-1);
+  }
+
+  /* ====== Section: Testimonials ====== */
+  .trusted-companies {
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .trusted-companies .company img {
+    object-fit: contain;
+  }
+
+  /* ====== Section: Savings ====== */
+  #savings .main .left h2 {
+    font-size: var(--fs-header-m);
+  }
+
+  /* ====== Section: Best-sellers ====== */
+  #best-sellers .header {
+    flex-direction: column;
+  }
+
+  #best-sellers h2 {
+    font-size: 8vw;
+    margin-bottom: 20px;
+  }
+
+  /* ====== Section: Trust ====== */
+  #trust .main {
+    margin: 0 var(--margin-side-s);
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  #trust .main .left,
+  #trust .main .right {
+    width: 100%;
+  }
+
+  #trust .main .left p {
+    width: 100%;
+  }
+
+  #trust .main .right p {
+    font-size: var(--fs-s-2);
+  }
+
+  #inspiration {
+    display: none;
+  }
+}

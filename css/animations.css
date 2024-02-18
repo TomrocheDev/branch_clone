@@ -1,0 +1,29 @@
+@keyframes to-full-height {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes to-half-height {
+    from {
+        height: 0%;
+    }
+    to {
+        height: calc(50% + 2px);
+    }
+}
+
+.animate__bar__full {
+    animation-name: to-full-height;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.animate__bar__half {
+    animation-name: to-half-height;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
