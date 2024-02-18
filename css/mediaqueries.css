@@ -262,6 +262,7 @@
 
   section#hero .main {
     width: 100%;
+    align-items: center;
   }
 
   .hero--text h2 {
@@ -271,6 +272,12 @@
 
   .hero--text p {
     text-align: center;
+  }
+
+  .hero--buttons,
+  .hero--buttons button {
+    width: 100%;
+    align-items: center;
   }
 
   section#products .main h2 {
